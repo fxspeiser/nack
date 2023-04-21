@@ -1,6 +1,10 @@
 # nack
-Network portmap to JSON converter. **Use ethically and only on networks you own or for which you are responsible**. 
+Network portmap to JSON converter. Translate the detectable ports on a network to a JSON object. 
+**Use ethically and only on networks you own or for which you are responsible**. 
+
 nack allows you to scan an IP address or a range of IP addresses for open ports and returns a JSON object containing the results.
+
+The general idea is that you can scan a network block or simgle address, and then work with the ports on that host in a familiar, JSON-compliant way. For instamce if you nack'd your localhost and had ssh open on the default port, you can use the output to do things like `localhost.22` in other things down the chain. 
 
 ## Requirements
 1. supporting language for nack (nack.js requires Node.js, nack.py requires python ..) installed on your system. There is even an equivalent JSON return of your network ports from the bash shell.  
@@ -9,9 +13,11 @@ nack allows you to scan an IP address or a range of IP addresses for open ports 
 ## Usage
 1. Navigate to the script of your choice.
 2. Open a terminal and navigate to the directory containing the script.
-2. Run the script by providing an IP address, range of IPs, or a domain as a command-line argument:
+3. Run the script by providing an IP address, range of IPs, or a domain as a command-line argument:
 
 `node nack.js <IP_address_or_domain>`
+
+4. You can then save the output to a file or pipe it to use elsewhere. 
 
 ## Example
 `node nack.js 127.0.0.1`

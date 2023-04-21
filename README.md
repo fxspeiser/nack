@@ -10,6 +10,8 @@ The general idea is that you can scan a network block or simgle address, and the
 1. supporting language for nack (nack.js requires Node.js, nack.py requires python ..) installed on your system. There is even an equivalent JSON return of your network ports from the bash shell.  
 2. Nmap installed on your system
 
+NOTE: root privileges are not required in most cases to use nack and most language ports work with the default installation of the language. As long as the system has nmap installed, it should be good to go. 
+
 ## Usage
 1. Navigate to the script of your choice.
 2. Open a terminal and navigate to the directory containing the script.

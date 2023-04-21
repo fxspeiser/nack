@@ -11,10 +11,10 @@ nack allows you to scan an IP address or a range of IP addresses for open ports 
 2. Open a terminal and navigate to the directory containing the script.
 2. Run the script by providing an IP address, range of IPs, or a domain as a command-line argument:
 
-`node .js <IP_address_or_domain>`
+`node nack.js <IP_address_or_domain>`
 
 ## Example
-`node nmap_port_scanner.js <IP_address_or_domain>`
+`node nack.js 127.0.0.1`
 
 The script will output a JSON object containing the IP address, port number, state, protocol, and suspected service for each open port found. The JSON object will have a compacted version of the following structure:
 

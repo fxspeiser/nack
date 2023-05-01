@@ -1,0 +1,26 @@
+{
+  "name": "fnack",
+  "version": "1.0.0",
+  "description": "convert nmap results to a json object",
+  "main": "src/nack.js",
+  "scripts": {
+    "test": "node src/nack.js 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxspeiser/nack.git"
+  },
+  "keywords": [
+    "network",
+    "mapper",
+    "security",
+    "security",
+    "audit"
+  ],
+  "author": "Frank Speiser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fxspeiser/nack/issues"
+  },
+  "homepage": "https://github.com/fxspeiser/nack#readme"
+}
